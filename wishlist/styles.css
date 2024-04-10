@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+
+}
+
+.logo {
+    padding: 0px 60px;
+}
+
+.right {
+    display: flex;
+    /* margin-right:40px; */
+ max-width: 100%;
+    
+}
+
+.icon {
+    padding:0px 40px;
+  
+    text-align: center;
+    
+}

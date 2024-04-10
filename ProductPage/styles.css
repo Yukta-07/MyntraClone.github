@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+li{
+    padding:10px;
+    font-size:15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color:black
+}
+/* .navbar {
+    position: fixed;
+} */
+
+.navbar-brand  {
+    padding: 10px 70px;
+}
+.product-img img:hover{
+    /* transform: scale(1.2); */
+}
+.p-name {
+    font-size:25px;
+    color:#535665;
+    opacity: .8;
+}
+.ratings {
+    border: 1px solid #eaeaea;
+    border-radius: 2px;
+    padding:10px;
+    display: flex;
+   
+}
+.mrp {
+
+    font-size:30px;
+    font-weight: 600;
+}
+.sizes {
+    font-weight: 600;
+    display: flex;
+}
+.select-size button{
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 50%;
+    /* font-size: 20px; */
+}
+
+.add button{
+    font-size:18px;
+    font-weight: 600;
+    padding:15px 40px;
+   background-color: rgb(248, 88, 115);
+    color:white;
+    border:1px solid rgb(248, 88, 115);
+    border-radius: 5px;
+}
